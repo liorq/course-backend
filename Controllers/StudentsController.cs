@@ -78,7 +78,7 @@ namespace JwtWebApi.Controllers
                     return Ok(res);
             }
 
-            return BadRequest("");
+            return BadRequest(new { error = "update failed" });
 
         }
 

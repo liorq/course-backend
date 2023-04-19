@@ -45,20 +45,33 @@ namespace JwtWebApi.Repositories
             return courses;
   
         }
+        //public async Task<bool> RemoveCourse(string CoursesId)
+        //{
+        //    var course = await _context.Courses.FirstOrDefaultAsync(c => c.CoursesId == CoursesId);
+        //    if (course == null)
+        //    {
+        //        return false;
+        //    }
+
+        //    _context.Courses.Remove(course);
+        //    await _context.SaveChangesAsync();
+
+        //    return true;
+        //}
+
         public async Task<bool> RemoveCourse(string CoursesId)
         {
-            var course = await _context.Courses.FirstOrDefaultAsync(c => c.CoursesId == CoursesId);
-            if (course == null)
+            var courses = await _context.Courses.Where(c => c.CoursesId == CoursesId).ToListAsync();
+            if (courses == null || courses.Count == 0)
             {
                 return false;
             }
 
-            _context.Courses.Remove(course);
+            _context.Courses.RemoveRange(courses);
             await _context.SaveChangesAsync();
 
             return true;
         }
-
 
         public async Task<bool> AddNewCourse(Courses course)
         {
