@@ -1,0 +1,7 @@
+C:\Users\moshe\source\repos\courses\JwtWebApi\obj\Debug\net6.0\courses.csproj.AssemblyReference.cache
+C:\Users\moshe\source\repos\courses\JwtWebApi\obj\Debug\net6.0\courses.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\moshe\source\repos\courses\JwtWebApi\obj\Debug\net6.0\courses.AssemblyInfoInputs.cache
+C:\Users\moshe\source\repos\courses\JwtWebApi\obj\Debug\net6.0\courses.AssemblyInfo.cs
+C:\Users\moshe\source\repos\courses\JwtWebApi\obj\Debug\net6.0\courses.csproj.CoreCompileInputs.cache
+C:\Users\moshe\source\repos\courses\JwtWebApi\obj\Debug\net6.0\courses.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\moshe\source\repos\courses\JwtWebApi\obj\Debug\net6.0\courses.MvcApplicationPartsAssemblyInfo.cache
